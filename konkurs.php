@@ -2,7 +2,7 @@
 require_once ('conf.php');
 session_start();
 if (!isset($_SESSION['tuvastamine'])){
-    header('Location:login.php');
+    header('Location:login1.php');
     exit();
 }
 
@@ -46,7 +46,7 @@ if (isset($_REQUEST['punkt'])){
 </nav>
     <div class="user">
         <p><?=$_SESSION["kasutaja"]?> on sisse logitud</p>
-        <form action="logout.php" method="post">
+        <form action="logout1.php" method="post">
             <input type="submit" value="Logi välja" name="logout">
         </form>
     </div>

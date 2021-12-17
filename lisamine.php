@@ -38,7 +38,7 @@ header("Location: haldus.php");
 </nav>
 <div class="user">
     <p><?=$_SESSION["kasutaja"]?> on sisse logitud</p>
-    <form action="logout.php" method="post">
+    <form action="logout1.php" method="post">
         <input type="submit" value="Logi välja" name="logout">
     </form>
 </div>
