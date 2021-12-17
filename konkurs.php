@@ -42,7 +42,7 @@ if (isset($_REQUEST['punkt'])){
     }
     ?>
     <a href="konkurs.php">Kasutaja Leht</a>
-    <a href="" target="_blank">Github</a>
+    <a href="https://github.com/AlekseiTiora/konkurss" target="_blank">Github</a>
 </nav>
     <div class="user">
         <p><?=$_SESSION["kasutaja"]?> on sisse logitud</p>
