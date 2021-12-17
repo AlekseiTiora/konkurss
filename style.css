@@ -1,0 +1,51 @@
+img{
+    width:200px;
+    height:150px;
+}
+td{
+    padding: 6px;
+}
+table{
+    text-align: center;
+    width:100%;
+}
+body{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    font-size: 24px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    font-style:oblique;
+}
+nav{
+    background: rgb(63,94,251);
+    padding: 10px;
+}
+nav a{
+    font-weight: bold;
+    margin-left: 15px;
+}
+input[type=text],[type=password], select {
+    width: 30%;
+    padding: 12px 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 20%;
+    background-color: #3c3838;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
